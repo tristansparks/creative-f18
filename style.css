@@ -1,0 +1,15 @@
+body {
+    background-color: black !important;
+    background-image: url('media/noise-tile-3.gif');
+    background-repeat: repeat;
+}
+
+.page1 {
+}
+
+.page1 video {
+    height: 100vh;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+}
