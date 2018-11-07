@@ -1,10 +1,10 @@
 body {
     background-color: black !important;
-    background-image: url('media/noise-tile-3.gif');
     background-repeat: repeat;
 }
 
 .page1 {
+    background-image: url('media/noise-tile-5.gif');
 }
 
 .page1 video {
