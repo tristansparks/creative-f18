@@ -27,24 +27,25 @@ body {
 /* PAGE 1 - TITLE*/
 .page1 {
     background-image: url('media/noise-tile-5.gif');
+    overflow: hidden;
 }
 
 .page1 video {
     z-index: 0;
-    height: 100vh;
-    width: auto;
+    width: 100%;
     display: block;
     margin: 0 auto;
 }
 
-.page1 h1 {
-    position: absolute;
+.header {
     z-index: 100;
+    position: absolute;
     top: 8%;
-    padding-right: 20%;
-    padding-left: 20%;
+    right: 3%;
+}
+
+.page1 h1 {
     color: black;
-    text-align: right;
     font-family: 'Playfair Display', serif;
     font-size: 60pt;
     text-shadow: 2px 2px white;
