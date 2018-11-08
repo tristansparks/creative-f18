@@ -79,6 +79,7 @@ body {
 .page3 {
     background-image: url('media/noise-tile-3.gif');
     background-repeat: no-repeat;
+    overflow: hidden;
 }
 
 #table-contents {
@@ -98,6 +99,12 @@ body {
 
 .page3 a:hover {
     color: white;
+}
+
+.page3 img {
+    width: 200%;
+    height: auto;
+    top: 50%;
 }
 /* PAGE 4 - Krystin Krulic */
 .page4 {
@@ -134,7 +141,7 @@ body {
     position: absolute;
     z-index: 100;
     margin-top: 25%;
-    left: 80%;
+    left: 95%;
     background: black;
 }
 
@@ -143,5 +150,5 @@ body {
     z-index: 100;
     background: black;
     margin-top: 25%;
-    left: 15%;
+    left: 5%;
 }
