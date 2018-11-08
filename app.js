@@ -4,7 +4,7 @@ $(document).ready(function () {
     $("#slideshow > div:gt(0)").hide();
 
     $("#fwd").on("click", function () {
-        if (juliaIndex < 4){
+        if (juliaIndex < 3){
             $('#im_'+juliaIndex)
                 .stop()
                 .fadeOut(500);

@@ -6,7 +6,7 @@
 
     font-family: 'Playfair Display', serif;
 
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
 
     font-family: 'Noticia Text', serif;
 
@@ -91,7 +91,7 @@ body {
 }
 
 .page3 a {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
     font-size: 30pt;
     color: #fffbad;
 }
@@ -105,8 +105,8 @@ body {
     background-repeat: no-repeat;
 }
 
-/* PAGE 5 - Julia Spicer */
-.page5 {
+/* PAGE 13 - Jothiraj Walter */
+.page13 {
     background-image: url('media/noise-tile-4.gif');
     background-repeat: no-repeat;
 }
