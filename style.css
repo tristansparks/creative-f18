@@ -47,7 +47,7 @@ body {
 .page1 h1 {
     color: black;
     font-family: 'Playfair Display', serif;
-    font-size: 60pt;
+    font-size: 80pt;
     text-shadow: 2px 2px white;
 }
 
@@ -86,6 +86,7 @@ body {
     color: white;
     padding: 5% 10%;
 }
+
 .page3 h1 {
     font-family: 'Michroma', sans-serif;
     font-size: 60pt;
@@ -110,8 +111,114 @@ body {
 .page4 {
     background-image: url('media/noise-tile-1.gif');
     background-repeat: no-repeat;
+    padding: 0 5%;
+    height: 110vh !important;
+    overflow: hidden;
 }
 
+.page4 h1 {
+    color: white;
+    font-family: 'Michroma', sans-serif;
+    font-size: 50pt;
+    margin: 2%;
+}
+
+.page4 h2 {
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20pt;
+    margin-left: 2%;
+}
+
+.page4 p {
+    color: white;
+    font-family: 'Noticia Text', serif;
+    font-size: 18pt;
+    line-height: 2.5;
+    padding: 2% 0;
+}
+
+.page4 img {
+    position: absolute;
+    width: 60%;
+    height: auto;
+}
+
+/* PAGE 5 - Julia Spicer */
+.page5 {
+    background-image: url('media/noise-tile-2.gif');
+    background-repeat: no-repeat;
+}
+
+.page5 img {
+    display: block;
+    margin: 0 auto;
+    height: 80vh;
+    width: auto;
+}
+
+.page5 h1 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 40pt;
+    color: white;
+    padding: 2%;
+    position: relative;
+    float: right;
+}
+
+/* PAGE 6 - Matt Mccarthy */
+
+.page6 {
+    background-image: url('media/noise-tile-5.gif');
+    background-repeat: no-repeat;
+}
+
+.page6 video {
+    height: 80%;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.page6 h1 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 40pt;
+    color: white;
+    padding: 2%;
+    position: relative;
+    float: right;
+}
+
+/* PAGE 7 - Sirob Berati */
+.page7 {
+    background-image: url('media/noise-tile-4.gif');
+    background-repeat: no-repeat;
+}
+
+.page7 img {
+    width: 100%;
+    height: auto;
+}
+
+img#siriob2 {
+    padding-top: 35%;
+}
+
+.page7 h1 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 40pt;
+    color: white;
+    padding: 2%;
+    position: relative;
+    float: right;
+}
+
+/* PAGE 9 - Aliah Nazamusa */
+
+.page9 {
+    background-image: url('media/noise-tile-4.gif');
+    background-repeat: no-repeat;
+}
 /* PAGE 13 - Jothiraj Walter */
 .page13 {
     background-image: url('media/noise-tile-4.gif');
