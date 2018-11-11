@@ -20,6 +20,22 @@ body {
 
 .page {
     height: 100vh;
+    overflow-x: hidden;
+}
+
+/* Mobile styling */
+@media(max-height: 620px) {
+    .page {
+        height: 620px;
+    }
+
+    .page4 {
+        height: 700px;
+    }
+
+    .page10 {
+        height: 900px !important;
+    }
 }
 
 /* Page specific CSS */
@@ -76,7 +92,7 @@ body {
 
 /* PAGE 3 - TABLE OF CONTENTS */
 .page3 {
-    background-image: url('media/noise-tile-3.gif');
+    background-image: url('media/noise-tile-5.gif');
     background-repeat: no-repeat;
     overflow: hidden;
 }
@@ -88,12 +104,12 @@ body {
 
 .page3 h1 {
     font-family: 'Michroma', sans-serif;
-    font-size: 60pt;
+    font-size: 40pt;
 }
 
 .page3 a {
     font-family: 'Roboto Mono', monospace;
-    font-size: 30pt;
+    font-size: 14pt;
     color: #fffbad;
 }
 
@@ -111,8 +127,6 @@ body {
     background-image: url('media/noise-tile-1.gif');
     background-repeat: no-repeat;
     padding: 0 5%;
-    height: 110vh;
-    overflow: hidden;
 }
 
 .page4 h1 {
@@ -146,6 +160,7 @@ body {
 .page5 {
     background-image: url('media/noise-tile-2.gif');
     background-repeat: no-repeat;
+    padding: 0 0;
 }
 
 .page5 img {
@@ -210,13 +225,99 @@ img#siriob2 {
     position: relative;
     float: right;
 }
+/*PAGE 8 - Mazza Angelina*/
+.page8 {
+    background-image: url('media/noise-tile-4.gif');
+    background-repeat: no-repeat;
+}
+
+.page8 h1 {
+    font-family: 'Michroma', sans-serif;
+    font-size: 18pt;
+    color: white;
+    padding: 0 2%;
+}
+
+.page8 h2 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14pt;
+    color: white;
+    padding: 0 2%;
+}
+.page8 p {
+    font-family: 'Noticia Text', serif;
+    color: white;
+    font-size: 11pt;
+    padding: 4%;
+    line-height: 1.8;
+}
+
+.page8 img {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
 
 /* PAGE 9 - Aliah Nazamusa */
+
+.vertical {
+    transform: rotate(90deg);
+}
 
 .page9 {
     background-image: url('media/noise-tile-4.gif');
     background-repeat: no-repeat;
 }
+
+.page9 img {
+    display: block;
+    margin: 0 auto;
+    height: 85%;
+}
+
+.page9 h1 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14pt;
+    color: white;
+    padding: 2%;
+    position: relative;
+    float: right;
+    padding-right: 5%;
+    top: -30%;
+}
+
+/* PAGE 10 - De Silva */
+.page10 {
+    background-image: url('media/noise-tile-5.gif');
+    background-repeat: repeat-y;
+    height: 150vh;
+}
+
+.page10 h1 {
+    font-family: 'Michroma', sans-serif;
+    font-size: 18pt;
+    color: white;
+    padding: 0 4%;
+}
+
+.page10 h2 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14pt;
+    color: white;
+    padding: 0 4%;
+}
+.page10 p {
+    font-family: 'Noticia Text', serif;
+    color: white;
+    font-size: 11pt;
+    padding: 4%;
+    line-height: 2;
+}
+
+.page10 img {
+    width: 100%;
+}
+
 /* PAGE 13 - Jothiraj Walter */
 .page13 {
     background-image: url('media/noise-tile-4.gif');
