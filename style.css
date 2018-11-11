@@ -325,6 +325,7 @@ img#siriob2 {
 }
 
 #slideshow { 
+#slideshow, #slideshow18 {
     margin: 0 auto; 
     position: relative; 
     width: 100%; 
@@ -338,12 +339,19 @@ img#siriob2 {
     margin: 0 auto;
 }
 
+
+.slide18 img {
+    display: block;
+    margin: 5% auto;
+    width: 55%;
+}
+
 .navbutton {
     cursor: pointer;
     float: left;
 }
 
-#fwd {
+#fwd, #fwd18 {
     position: absolute;
     z-index: 100;
     margin-top: 25%;
@@ -351,10 +359,263 @@ img#siriob2 {
     background: black;
 }
 
-#bwd {
+#bwd, #bwd18 {
     position: absolute;
     z-index: 100;
     background: black;
     margin-top: 25%;
     left: 5%;
+}
+
+.page24 h1, .page23 h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Michroma', sans-serif;
+    font-size: 60pt;
+}
+
+
+.triangle {
+    border-right: 10px solid;
+    border-bottom: 10px solid;
+    height: 30px;
+    width: 30px;
+    transform: rotate(-45deg);
+    color: white;
+}
+
+.arrow {
+    margin-left: 45%;
+    box-sizing: border-box;
+    height: 5vw;
+    width: 5vw;
+    border-style: solid;
+    border-color: white;
+    border-width: 0px 2px 2px 0px;
+    transform: rotate(45deg);
+    transition: border-width 150ms ease-in-out;
+}
+
+.arrow:hover {
+    border-bottom-width: 4px;
+    border-right-width: 4px;
+}
+
+.page23, .page24 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.page24 div {
+    text-align: center;
+}
+
+.page23 p{
+    font-family: 'Noticia Text', serif;
+    color: white;
+}
+.page22 p{
+    color: white;
+}
+
+.page21 .pimg1 {
+    left: 15%; padding-top: 5%; position: absolute; width: 55%;
+}
+
+.page21 .pimg2 {
+    left: 54%; padding-top: 10%; position: relative; width: 25%;
+}
+
+.page21 p {
+    color: white;
+    margin-top: -3%;
+    padding-left: 40%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.page20 .pimg1 {
+    left: 15%; padding-top: 3%; position: absolute; width: 30%;
+}
+
+.page20 .pimg2 {
+    left: 30%; padding-top: 28%; position: relative; width: 12%;
+}
+
+.page20 p, .page19 p {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.page20 .p1 {
+    margin-top: -13%;
+    padding-left: 35%;
+}
+
+.page20 .p2 {
+    margin-top: 15%;
+    padding-left: 35%;
+}
+
+.page20 .p3 {
+    margin-top: 1%;
+    padding-left: 70%;
+}
+
+.page20 .p4 {
+    padding-right: 20%;
+    text-align: right;
+}
+
+.page20 h1 {
+    color: white;
+    font-family: 'Michroma', sans-serif;
+    margin-top: -40%;
+    padding-left: 58%;
+}
+
+.page22 video {
+    z-index: 0;
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+.page22 p {
+    margin-left: 45%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.page19 .pimg1 {
+    left: 18%; padding-top:18%; position: absolute; width: 15%;
+}
+
+.page19 .pimg2 {
+    left: 60%; padding-top:8%; position: relative; width: 15%;
+}
+
+.page19 .p1 {
+    margin-top: 15%;
+    padding-left: 35%;
+}
+
+.page19 .p2 {
+    margin-top: -42%;
+    padding-left: 70%;
+}
+
+.page19 .line1 {
+    position: relative;
+    left: 25%;
+    z-index: -1;
+    height: 80%;
+    border-left: 2px solid white;
+
+}
+
+.page19 .line2 {
+    margin-top: -45%;
+    position: relative;
+    z-index: -1;
+    height: 80%;
+    border-left: 2px solid white;
+    left: 68%;
+}
+
+.page17 .pimg1 {
+    margin-left: 33%; padding-top:8%; width: 35%;
+}
+
+.page17 p {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 47%;
+}
+
+.page18 p {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 47%;
+    margin-top: -18%;
+}
+
+.page16 img {
+    left: 18%; padding-top:18%; position: absolute; width: 30%;
+}
+
+.page14 img {
+    left: 18%; padding-top:18%; position: absolute; width: 30%;
+}
+
+.page16 p, .page14 p {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.page16 .p1 {
+    padding-left: 35%;
+    padding-top: 40%;
+}
+
+.page16 h1 {
+    color: white;
+    font-family: 'Michroma', sans-serif;
+    padding-left: 61%;
+    margin-top: -35%;
+}
+
+.page16 .p2 {
+    padding-left: 80%;
+    padding-top: 1%;
+}
+
+.page16 .p3 {
+    padding-right: 17%;
+    text-align: right;
+}
+
+.page14 .p1 {
+    padding-left: 35%;
+    padding-top: 40%;
+}
+
+.page14 .p2 {
+}
+
+.page14 .p3 {
+    width: 50%;
+}
+
+.page14 h1 {
+    color: white;
+    font-family: 'Michroma', sans-serif;
+    padding-left: 61%;
+    margin-top: -35%;
+}
+
+#im18_1, #im18_2 {
+    height: 60vh !important;
+}
+
+@media (max-width: 600px) {
+    .page24 h1, .page23 h1 {
+        font-size: 30pt;
+    }
+
+    .page21 .pimg1, .page21 .pimg2 {
+        margin-top: 50%;
+    }
+
+    .page21 p {
+        padding-top: 10%;
+    }
+
+    .page22 video {
+        margin-top: 20%;
+    }
+
+    .page22 p {
+       margin-left: 35%;
+    }
 }
