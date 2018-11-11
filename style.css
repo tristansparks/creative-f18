@@ -507,7 +507,7 @@ img#siriob2 {
 }
 
 .page19 .pimg2 {
-    left: 60%; padding-top:8%; position: relative; width: 15%;
+    left: 60%; padding-top:10%; position: relative; width: 15%;
 }
 
 .page19 .p1 {
@@ -533,7 +533,7 @@ img#siriob2 {
     margin-top: -45%;
     position: relative;
     z-index: -1;
-    height: 80%;
+    height: 90%;
     border-left: 2px solid white;
     left: 68%;
 }
@@ -595,7 +595,7 @@ img#siriob2 {
 }
 
 .page16 .p3 {
-    padding-right: 17%;
+    padding-right: 12%;
     text-align: right;
 }
 
@@ -607,7 +607,7 @@ img#siriob2 {
     height: 60vh !important;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 720px) {
     .page20 p {
         font-size: 10.5px;
     }
@@ -715,7 +715,7 @@ img#siriob2 {
     }
 
     .page16 .p3 {
-        padding-right: 7%;
+        padding-right: 5%;
         text-align: right;
     }
 
@@ -731,4 +731,48 @@ img#siriob2 {
         margin-left: 32%;
         margin-top: -85%;
     }
+
+    .page19 .line2 {
+        margin-top: -190%;
+    }
+
+    .page19 .line1 {
+        margin-top: -60%;
+    }
+
+    .page19 .pimg1 {
+        left: 18%; padding-top:48%; position: absolute; width: 15%;
+    }
+
+    .page19 .pimg2 {
+        left: 60%; padding-top:70%; position: relative; width: 15%;
+    }
+
+    .page19 .p2 {
+        margin-top: -20%;
+    }
+}
+
+@media (max-width: 1200px) and (min-width: 720px) {
+    .page19 .line1 {
+        left: 25%;
+
+    }
+
+    .page19 .line2 {
+        margin-top: -125%;
+    }
+
+    .page19 .p2 {
+        margin-top: -10%;
+    }
+
+    .page19 .pimg1 {
+        left: 18%; padding-top:48%; position: absolute; width: 15%;
+    }
+
+    .page19 .pimg2 {
+        left: 60%; padding-top:70%; position: relative; width: 15%;
+    }
+
 }
