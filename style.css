@@ -400,7 +400,7 @@ img#siriob2 {
     border-right-width: 4px;
 }
 
-.page23, .page24 {
+.page23, .page24, .page15{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -431,6 +431,22 @@ img#siriob2 {
     color: white;
     margin-top: -3%;
     padding-left: 40%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.page15 .pimg1 {
+    left: 48%; position: absolute; width: 32%; z-index: 10; padding-top: 18%;
+}
+
+.page15 .pimg2 {
+    left: 24%; padding-top: 6%; position: absolute; width: 30%;
+}
+
+.page15 p {
+    position: absolute;
+    color: white;
+    padding-top: 12%;
+    left: 65%;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -523,7 +539,7 @@ img#siriob2 {
 }
 
 .page17 .pimg1 {
-    margin-left: 33%; padding-top:8%; width: 35%;
+    margin-left: 28%; padding-top:8%; width: 45%;
 }
 
 .page17 p {
@@ -539,11 +555,20 @@ img#siriob2 {
     margin-top: -18%;
 }
 
-.page16 img {
-    left: 18%; padding-top:18%; position: absolute; width: 30%;
+.page14 img {
+    left: 48%; position: absolute; width: 30%; padding-top: 6%
 }
 
-.page14 img {
+.page14 h1 {
+    color: white;
+    font-family: 'Michroma', sans-serif;
+}
+
+.page14 .p1 {
+    left: 79%; position: absolute; padding-top: 43%
+}
+
+.page16 img {
     left: 18%; padding-top:18%; position: absolute; width: 30%;
 }
 
@@ -574,23 +599,8 @@ img#siriob2 {
     text-align: right;
 }
 
-.page14 .p1 {
-    padding-left: 35%;
-    padding-top: 40%;
-}
-
-.page14 .p2 {
-}
-
-.page14 .p3 {
-    width: 50%;
-}
-
-.page14 h1 {
-    color: white;
-    font-family: 'Michroma', sans-serif;
-    padding-left: 61%;
-    margin-top: -35%;
+#page14div{
+    left: 15%; padding-top: 6%; position: absolute;
 }
 
 #im18_1, #im18_2 {
@@ -598,8 +608,52 @@ img#siriob2 {
 }
 
 @media (max-width: 600px) {
-    .page24 h1, .page23 h1 {
+    .page20 p {
+        font-size: 10.5px;
+    }
+
+    .page20 h1 {
+        font-size: 25px;
+        padding-left: 0%;
+        margin-left: 50%;
+        margin-top: -50%;
+    }
+
+    .page20 .p3{
+        padding-left: 80%;
+        margin-top: 0;
+    }
+
+    .page20 .p2{
+        padding-left: 40%;
+        margin-top: 5%;
+    }
+
+    .page20 .p1 {
+        margin-top: 55%;
+        padding-left: 35%;
+        position: absolute;
+    }
+
+    .page20 .p4{
+        padding-right: 2%;
+    }
+
+    .page20 .pimg1{
+        left: 8%; padding-top: 88%; position: absolute; width: 35%;
+    }
+
+    .page20 .pimg2 {
+        left: 8%; padding-top: 38%; position: relative; width: 35%;
+    }
+
+    .page24 h1{
         font-size: 30pt;
+    }
+
+    .page23 h1 {
+        padding-top: 40%;
+        font-size: 20pt;
     }
 
     .page21 .pimg1, .page21 .pimg2 {
@@ -616,5 +670,65 @@ img#siriob2 {
 
     .page22 p {
        margin-left: 35%;
+    }
+
+    #page14div {
+        left: 3%;
+        padding-top: 15%;
+    }
+
+    .page14 img {
+        left: 58%; position: absolute; width: 30%; padding-top: 29%
+    }
+
+    .page14 h1 {
+        font-size: 25px;
+    }
+
+    .page14 .p1 {
+        font-size: 14px; left: 66%; position: absolute; padding-top: 70%
+    }
+
+    .page14 .p2 {
+        font-size: 14px;
+    }
+
+    .page14 .p3 {
+        font-size: 11px;
+    }
+
+    .page17 p {
+        margin-left: 41%;
+    }
+
+    .page16 .p1 {
+        padding-left: 35%;
+        padding-top: 56%;
+    }
+
+    .page16 p{
+        font-size: 12px;
+    }
+
+    .page16 h1 {
+        font-size: 25px;
+    }
+
+    .page16 .p3 {
+        padding-right: 7%;
+        text-align: right;
+    }
+
+    .page16 .p2 {
+        padding-left: 70%;
+    }
+
+    .page16 img {
+        left: 8%; padding-top:28%; position: absolute; width: 40%;
+    }
+
+    .page18 p {
+        margin-left: 32%;
+        margin-top: -85%;
     }
 }
