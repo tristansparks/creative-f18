@@ -19,8 +19,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="283" column="24" lean-forward="false" selection-start-line="283" selection-start-column="16" selection-end-line="283" selection-end-column="24" />
+            <state relative-caret-position="196">
+              <caret line="306" column="20" lean-forward="false" selection-start-line="306" selection-start-column="20" selection-end-line="306" selection-end-column="20" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#14;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h1#0;n#div#0;n#div#22;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -44,8 +44,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="739" column="22" lean-forward="false" selection-start-line="739" selection-start-column="22" selection-end-line="739" selection-end-column="22" />
+            <state relative-caret-position="360">
+              <caret line="688" column="33" lean-forward="false" selection-start-line="688" selection-start-column="33" selection-end-line="688" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -55,9 +55,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>table-contents</find>
-      <find>bwd</find>
-      <find>im_1</find>
       <find>.slide</find>
       <find>slide</find>
       <find>pimg</find>
@@ -68,23 +65,26 @@
       <find>page15</find>
       <find>page24</find>
       <find>page23</find>
-      <find>page20</find>
       <find>page20 .pimg1</find>
       <find>page20 .pimg2</find>
       <find>page20 .p1</find>
       <find>the night sky</find>
       <find>page14div</find>
       <find>page14 .p1</find>
-      <find>page17</find>
       <find>page14</find>
       <find>page14 img</find>
-      <find>page16</find>
-      <find>sunny day</find>
       <find>page18 p</find>
-      <find>page19</find>
-      <find>what is</find>
       <find>page16 .p3</find>
       <find>page19 .p2</find>
+      <find>page19</find>
+      <find>what is</find>
+      <find>robo</find>
+      <find>sunny day</find>
+      <find>page16</find>
+      <find>page20</find>
+      <find>night sky</find>
+      <find>page18</find>
+      <find>page17</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -170,12 +170,12 @@
       <updated>1541719520319</updated>
       <workItem from="1541719521453" duration="609000" />
       <workItem from="1541720227392" duration="11436000" />
-      <workItem from="1541971674866" duration="7712000" />
+      <workItem from="1541971674866" duration="8827000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19757000" />
+    <option name="totallyTimeSpent" value="20872000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="536" y="81" width="941" height="803" extended-state="0" />
@@ -254,8 +254,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="283" column="24" lean-forward="false" selection-start-line="283" selection-start-column="16" selection-end-line="283" selection-end-column="24" />
+        <state relative-caret-position="196">
+          <caret line="306" column="20" lean-forward="false" selection-start-line="306" selection-start-column="20" selection-end-line="306" selection-end-column="20" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#14;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h1#0;n#div#0;n#div#22;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -267,8 +267,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="739" column="22" lean-forward="false" selection-start-line="739" selection-start-column="22" selection-end-line="739" selection-end-column="22" />
+        <state relative-caret-position="360">
+          <caret line="688" column="33" lean-forward="false" selection-start-line="688" selection-start-column="33" selection-end-line="688" selection-end-column="33" />
           <folding />
         </state>
       </provider>
