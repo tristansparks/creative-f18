@@ -407,6 +407,16 @@ img#siriob2 {
     height: 100vh;
 }
 
+.page1b{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page1b img {
+    width: 100%;
+}
+
 .page24 div {
     text-align: center;
 }
@@ -607,6 +617,7 @@ img#siriob2 {
     height: 60vh !important;
 }
 
+
 @media (max-width: 720px) {
     .page20 p {
         font-size: 9.5px;
@@ -753,9 +764,17 @@ img#siriob2 {
     .page19 .p2 {
         margin-top: -20%;
     }
+
+    #page1, #page2 {
+        display: none !important;
+    }
 }
 
 @media (max-width: 1000px) and (min-width: 720px) {
+
+    #page1b{
+        display: none !important;
+    }
     .page19 .line1 {
         left: 25%;
 
@@ -777,4 +796,10 @@ img#siriob2 {
         left: 60%; padding-top:70%; position: relative; width: 15%;
     }
 
+}
+
+@media (min-width: 1000px) {
+    #page1b{
+        display: none !important;
+    }
 }
