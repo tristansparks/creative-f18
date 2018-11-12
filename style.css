@@ -36,8 +36,65 @@ body {
     .page10 {
         height: 900px !important;
     }
+
+    .page12 {
+        height: 1200px !important;
+    }
 }
 
+@media(max-width: 1075px) {
+    
+
+}
+
+@media(max-width: 850px) {
+    .page {
+        height: auto;
+        padding: 10vh 5px;
+    }
+    .page4 img {
+        position: relative !important;
+        width: 70%;
+        height: auto;
+    }
+    .page4 {
+        height: auto;
+    }
+
+    .page5 {
+        height: 1550px;
+    }
+    
+    .page5 img {
+        padding: 10px;
+    }
+    
+    .page5 h1 {
+        top: 980px;
+    }
+
+    .page6 video {
+        width: 90% !important;
+        height: auto !important;
+    }
+
+    img#siriob2 {
+        padding-top: 0 !important;
+    }
+
+    .vertical {
+        transform: rotate(90deg);
+    }
+    
+    .page9 img {
+        width: 90% !important;
+        height: auto !important;
+    }
+
+    .vertical {
+        transform: none !important;
+    }
+}
 /* Page specific CSS */
 
 /* PAGE 1 - TITLE*/
@@ -99,17 +156,17 @@ body {
 
 #table-contents {
     color: white;
-    padding: 5% 10%;
+    padding: 2% 10%;
 }
 
 .page3 h1 {
     font-family: 'Michroma', sans-serif;
-    font-size: 40pt;
+    font-size: 30pt;
 }
 
 .page3 a {
     font-family: 'Roboto Mono', monospace;
-    font-size: 14pt;
+    font-size: 11pt;
     color: #fffbad;
 }
 
@@ -133,14 +190,13 @@ body {
     color: white;
     font-family: 'Michroma', sans-serif;
     font-size: 30pt;
-    margin: 2%;
 }
 
 .page4 h2 {
     color: white;
     font-family: 'Roboto Mono', monospace;
     font-size: 10pt;
-    margin-left: 2%;
+
 }
 
 .page4 p {
@@ -176,6 +232,7 @@ body {
     color: white;
     padding: 2%;
     position: relative;
+    display: block;
     float: right;
 }
 
@@ -318,21 +375,83 @@ img#siriob2 {
     width: 100%;
 }
 
+/*Page 11*/
+
+.page11 {
+    background-image: url('media/noise-tile-4.gif');
+    background-repeat: no-repeat;
+}
+
+.page11 img {
+    height: 90%;
+    display: block;
+    margin: 0 auto;
+}
+
+.page11 h1 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14pt;
+    color: white;
+    position: relative;
+    float: right;
+    padding-right: 20%;
+    padding-top: 4px;
+}
+
+/* PAGE 12 - abeer + melissaaaaa */
+
+.page12 {
+    height: 200vh;
+}
+
+.page12 img {
+    width: 100%;
+}
+
+.page12 p {
+    font-family: 'Noticia Text', serif;
+    font-size: 11pt;
+    color: white;
+    position: relative;
+}
+
+.page12 h1 {
+    font-family: 'Michroma', sans-serif;
+    font-size: 18pt;
+    color: white;
+}
+
+.page12 h2 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14pt;
+    color: white;
+}
+
 /* PAGE 13 - Jothiraj Walter */
 .page13 {
     background-image: url('media/noise-tile-4.gif');
     background-repeat: no-repeat;
 }
 
+.page13 h1 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14pt;
+    color: white;
+    display: block;
+    float: right;
+    padding-right: 15%;
+    padding-top: 4px;
+}
+
 #slideshow, #slideshow18 {
     margin: 0 auto; 
     position: relative; 
     width: 100%; 
-    height: 100vh;; 
+    height: 90%; 
 }
 
 .slide img {
-    height: 100vh;
+    height: 100%;
     width: auto;
     display: block;
     margin: 0 auto;
