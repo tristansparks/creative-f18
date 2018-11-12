@@ -105,7 +105,7 @@ body {
     }
 
     .page12 {
-        height: 1550px !important;
+        height: 1800px !important;
     }
 
     .page12 img {
@@ -475,7 +475,6 @@ img#siriob2 {
     margin: 0 auto;
 }
 
-
 .slide18 img {
     display: block;
     margin: 5% auto;
@@ -503,13 +502,211 @@ img#siriob2 {
     left: 5%;
 }
 
+.page14 img {
+    left: 57%; position: absolute; width: 28%; padding-top: 6%
+}
+
+.page14 h1 {
+    color: white;
+    font-family: 'Michroma', sans-serif;
+}
+
+.page14 .p1 {
+    left: 86%; position: absolute; padding-top: 42%
+}
+
+.page15 .pimg1 {
+    left: 48%; position: absolute; width: 32%; z-index: 10; padding-top: 18%;
+}
+
+.page15 .pimg2 {
+    left: 24%; padding-top: 6%; position: absolute; width: 30%;
+}
+
+.page15 p {
+    position: absolute;
+    color: white;
+    padding-top: 12%;
+    left: 65%;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.page16 img {
+    left: 8%; padding-top:18%; position: absolute; width: 30%;
+}
+
+.page16 p, .page14 p {
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+}
+
+.page16 .p1 {
+    padding-left: 30%;
+    padding-top: 40%;
+}
+
+.page16 h1 {
+    color: white;
+    font-family: 'Michroma', sans-serif;
+    padding-left: 63%;
+    margin-top: -35%;
+}
+
+.page16 .p2 {
+    padding-left: 82%;
+    padding-top: 1%;
+}
+
+.page16 .p3 {
+    padding-right: 10%;
+    text-align: right;
+}
+
+
+.page17 .pimg1 {
+    margin-left: 28%; padding-top:8%; width: 45%;
+}
+
+.page17 p {
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    margin-left: 47%;
+}
+
+
+.page18 p {
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    margin-left: 47%;
+    margin-top: -18%;
+}
+
+.page19 .pimg1 {
+    left: 18%; padding-top:15%; position: absolute; width: 15%;
+}
+
+.page19 .pimg2 {
+    left: 60%; padding-top:10%; position: relative; width: 15%;
+}
+
+.page19 .p1 {
+    margin-top: 12%;
+    padding-left: 35%;
+}
+
+.page19 .p2 {
+    margin-top: -42%;
+    padding-left: 70%;
+}
+
+.page19 .line1 {
+    position: relative;
+    left: 25%;
+    z-index: -1;
+    height: 80%;
+    border-left: 2px solid white;
+
+}
+
+.page19 .line2 {
+    margin-top: -45%;
+    position: relative;
+    z-index: -1;
+    height: 90%;
+    border-left: 2px solid white;
+    left: 68%;
+}
+
+
+.page20 {
+    height: 120vh;
+}
+
+.page20 .pimg1 {
+    left: 15%; padding-top: 3%; position: absolute; width: 30%;
+}
+
+.page20 .pimg2 {
+    left: 30%; padding-top: 28%; position: relative; width: 12%;
+}
+
+.page20 p, .page19 p {
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.page20 .p1 {
+    margin-top: -13%;
+    padding-left: 35%;
+}
+
+.page20 .p2 {
+    margin-top: 15%;
+    padding-left: 35%;
+}
+
+.page20 .p3 {
+    margin-top: 1%;
+    padding-left: 70%;
+}
+
+.page20 .p4 {
+    padding-right: 20%;
+    text-align: right;
+}
+
+.page20 h1 {
+    color: white;
+    font-family: 'Michroma', sans-serif;
+    margin-top: -40%;
+    padding-left: 58%;
+}
+
+
+.page21 .pimg1 {
+    left: 15%; padding-top: 5%; position: absolute; width: 55%;
+}
+
+.page21 .pimg2 {
+    left: 54%; padding-top: 10%; position: relative; width: 25%;
+}
+
+.page21 p {
+    color: white;
+    margin-top: -3%;
+    padding-left: 40%;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.page22 p{
+    color: white;
+}
+
+.page22 video {
+    z-index: 0;
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+.page22 p {
+    margin-left: 45%;
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+.page23 p{
+    font-family: 'Noticia Text', serif;
+    color: white;
+}
+
 .page24 h1, .page23 h1 {
     text-align: center;
     color: white;
     font-family: 'Michroma', sans-serif;
     font-size: 60pt;
 }
-
 
 .triangle {
     border-right: 10px solid;
@@ -556,195 +753,6 @@ img#siriob2 {
 
 .page24 div {
     text-align: center;
-}
-
-.page23 p{
-    font-family: 'Noticia Text', serif;
-    color: white;
-}
-.page22 p{
-    color: white;
-}
-
-.page21 .pimg1 {
-    left: 15%; padding-top: 5%; position: absolute; width: 55%;
-}
-
-.page21 .pimg2 {
-    left: 54%; padding-top: 10%; position: relative; width: 25%;
-}
-
-.page21 p {
-    color: white;
-    margin-top: -3%;
-    padding-left: 40%;
-    font-family: 'Roboto Mono', monospace;
-}
-
-.page15 .pimg1 {
-    left: 48%; position: absolute; width: 32%; z-index: 10; padding-top: 18%;
-}
-
-.page15 .pimg2 {
-    left: 24%; padding-top: 6%; position: absolute; width: 30%;
-}
-
-.page15 p {
-    position: absolute;
-    color: white;
-    padding-top: 12%;
-    left: 65%;
-    font-family: 'Roboto Mono', monospace;
-}
-
-.page20 .pimg1 {
-    left: 15%; padding-top: 3%; position: absolute; width: 30%;
-}
-
-.page20 .pimg2 {
-    left: 30%; padding-top: 28%; position: relative; width: 12%;
-}
-
-.page20 p, .page19 p {
-    color: white;
-    font-family: 'Roboto Mono', monospace;
-}
-
-.page20 .p1 {
-    margin-top: -13%;
-    padding-left: 35%;
-}
-
-.page20 .p2 {
-    margin-top: 15%;
-    padding-left: 35%;
-}
-
-.page20 .p3 {
-    margin-top: 1%;
-    padding-left: 70%;
-}
-
-.page20 .p4 {
-    padding-right: 20%;
-    text-align: right;
-}
-
-.page20 h1 {
-    color: white;
-    font-family: 'Michroma', sans-serif;
-    margin-top: -40%;
-    padding-left: 58%;
-}
-
-.page22 video {
-    z-index: 0;
-    width: 80%;
-    display: block;
-    margin: 0 auto;
-}
-
-.page22 p {
-    margin-left: 45%;
-    font-family: 'Roboto Mono', monospace;
-}
-
-.page19 .pimg1 {
-    left: 18%; padding-top:15%; position: absolute; width: 15%;
-}
-
-.page19 .pimg2 {
-    left: 60%; padding-top:10%; position: relative; width: 15%;
-}
-
-.page19 .p1 {
-    margin-top: 12%;
-    padding-left: 35%;
-}
-
-.page19 .p2 {
-    margin-top: -42%;
-    padding-left: 70%;
-}
-
-.page19 .line1 {
-    position: relative;
-    left: 25%;
-    z-index: -1;
-    height: 80%;
-    border-left: 2px solid white;
-
-}
-
-.page19 .line2 {
-    margin-top: -45%;
-    position: relative;
-    z-index: -1;
-    height: 90%;
-    border-left: 2px solid white;
-    left: 68%;
-}
-
-.page17 .pimg1 {
-    margin-left: 28%; padding-top:8%; width: 45%;
-}
-
-.page17 p {
-    color: white;
-    font-family: 'Roboto Mono', monospace;
-    margin-left: 47%;
-}
-
-.page18 p {
-    color: white;
-    font-family: 'Roboto Mono', monospace;
-    margin-left: 47%;
-    margin-top: -18%;
-}
-
-.page14 img {
-    left: 57%; position: absolute; width: 28%; padding-top: 6%
-}
-
-.page14 h1 {
-    color: white;
-    font-family: 'Michroma', sans-serif;
-}
-
-.page14 .p1 {
-    left: 86%; position: absolute; padding-top: 42%
-}
-
-.page16 img {
-    left: 8%; padding-top:18%; position: absolute; width: 30%;
-}
-
-.page16 p, .page14 p {
-    color: white;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 15px;
-}
-
-.page16 .p1 {
-    padding-left: 30%;
-    padding-top: 40%;
-}
-
-.page16 h1 {
-    color: white;
-    font-family: 'Michroma', sans-serif;
-    padding-left: 63%;
-    margin-top: -35%;
-}
-
-.page16 .p2 {
-    padding-left: 82%;
-    padding-top: 1%;
-}
-
-.page16 .p3 {
-    padding-right: 10%;
-    text-align: right;
 }
 
 #page14div{
