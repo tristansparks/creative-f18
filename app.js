@@ -16,7 +16,7 @@ $(document).ready(function () {
         }
     });
     $("#fwd18").on("click", function () {
-        if (kIndex < 4){
+        if (kIndex < 2){
             $('#im18_'+kIndex)
                 .stop()
                 .fadeOut(500);
@@ -38,6 +38,7 @@ $(document).ready(function () {
                 .fadeIn(500);
         }
     });
+    
     $("#bwd18").on("click", function () {
         if (kIndex > 1){
             $('#im18_'+kIndex)

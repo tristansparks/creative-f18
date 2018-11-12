@@ -18,6 +18,10 @@ body {
     background-repeat: repeat;
 }
 
+.yellow {
+    color: #fffbad;
+}
+
 .page {
     height: 100vh;
     overflow-x: hidden;
@@ -420,6 +424,8 @@ img#siriob2 {
 
 .page12 {
     height: 200vh;
+    background-image: url('media/noise-tile-4.gif');
+    background-repeat: repeat-y;
 }
 
 .page12 img {
@@ -465,7 +471,7 @@ img#siriob2 {
     margin: 0 auto; 
     position: relative; 
     width: 100%; 
-    height: 90%; 
+    height: 75%; 
 }
 
 .slide img {
@@ -502,6 +508,11 @@ img#siriob2 {
     left: 5%;
 }
 
+.page14 {
+    background-image: url('media/noise-tile-5.gif');
+    background-repeat: no-repeat;
+}
+
 .page14 img {
     left: 57%; position: absolute; width: 28%; padding-top: 6%
 }
@@ -513,6 +524,11 @@ img#siriob2 {
 
 .page14 .p1 {
     left: 86%; position: absolute; padding-top: 42%
+}
+
+.page15 {
+    background-image: url('media/noise-tile-2.gif');
+    background-repeat: no-repeat;
 }
 
 .page15 .pimg1 {
@@ -529,6 +545,11 @@ img#siriob2 {
     padding-top: 12%;
     left: 65%;
     font-family: 'Roboto Mono', monospace;
+}
+
+.page16 {
+    background-image: url('media/noise-tile-1.gif');
+    background-repeat: no-repeat;
 }
 
 .page16 img {
@@ -563,9 +584,14 @@ img#siriob2 {
     text-align: right;
 }
 
+.page17 {
+    background-image: url('media/noise-tile-4.gif');
+    background-repeat: no-repeat;
+}
 
 .page17 .pimg1 {
-    margin-left: 28%; padding-top:8%; width: 45%;
+    margin-left: 28%;
+    width: 45%;
 }
 
 .page17 p {
@@ -574,12 +600,22 @@ img#siriob2 {
     margin-left: 47%;
 }
 
+.page18 {
+    background-image: url('media/noise-tile-5.gif');
+    background-repeat: no-repeat;
+}
 
 .page18 p {
     color: white;
     font-family: 'Roboto Mono', monospace;
-    margin-left: 47%;
-    margin-top: -18%;
+    display: block;
+    float: right;
+    padding-right: 25%;
+}
+
+.page19 {
+    background-image: url('media/noise-tile-4.gif');
+    background-repeat: no-repeat;
 }
 
 .page19 .pimg1 {
@@ -618,6 +654,10 @@ img#siriob2 {
     left: 68%;
 }
 
+.page20 {
+    background-image: url('media/noise-tile-3.gif');
+    background-repeat: no-repeat;
+}
 
 .page20 {
     height: 120vh;
@@ -663,6 +703,10 @@ img#siriob2 {
     padding-left: 58%;
 }
 
+.page21 {
+    background-image: url('media/noise-tile-4.gif');
+    background-repeat: no-repeat;
+}
 
 .page21 .pimg1 {
     left: 15%; padding-top: 5%; position: absolute; width: 55%;
@@ -677,6 +721,13 @@ img#siriob2 {
     margin-top: -3%;
     padding-left: 40%;
     font-family: 'Roboto Mono', monospace;
+}
+
+.page22 {
+    padding: 5% 0;
+    height: 110vh;
+    background-image: url('media/noise-tile-4.gif');
+    background-repeat: no-repeat;
 }
 
 .page22 p{
@@ -695,6 +746,10 @@ img#siriob2 {
     font-family: 'Roboto Mono', monospace;
 }
 
+.page23 {
+    background-image: url('media/noise-tile-1.gif');
+    background-repeat: no-repeat;
+}
 
 .page23 p{
     font-family: 'Noticia Text', serif;
@@ -749,6 +804,11 @@ img#siriob2 {
 
 .page1b img {
     width: 100%;
+}
+
+.page24 {
+    background-image: url('media/noise-tile-2.gif');
+    background-repeat: no-repeat;
 }
 
 .page24 div {
