@@ -42,11 +42,6 @@ body {
     }
 }
 
-@media(max-width: 1075px) {
-    
-
-}
-
 @media(max-width: 850px) {
     .page {
         height: auto;
@@ -93,6 +88,29 @@ body {
 
     .vertical {
         transform: none !important;
+    }
+
+    .page10 {
+        height: 1500px !important;
+    }
+
+    #taja {
+        display: block;
+        float: right;
+    }
+
+    .page11 img {
+        width: 90% !important;
+        height: auto !important;
+    }
+
+    .page12 {
+        height: 1550px !important;
+    }
+
+    .page12 img {
+        width: 100% !important;
+        height: auto !important;   
     }
 }
 /* Page specific CSS */
