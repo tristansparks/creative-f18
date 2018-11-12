@@ -56,4 +56,11 @@ $(document).ready(function () {
         }, 500);
         return false;
     });
+
+    if ($(document).width() < 800) {
+        console.log("whatup");
+        var vid = document.getElementById("matt-video");
+        vid.autoplay = false;
+        vid.controls = true;
+    }
 });
