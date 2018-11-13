@@ -1,0 +1,1081 @@
+/*accent colour: #fffbad*/
+/*
+
+
+    font-family: 'Michroma', sans-serif;
+
+    font-family: 'Playfair Display', serif;
+
+    font-family: 'Roboto Mono', monospace;
+
+    font-family: 'Noticia Text', serif;
+
+
+*/
+/* Global CSS */
+body {
+    background-color: black !important;
+    background-repeat: repeat;
+}
+
+.yellow {
+    color: #fffbad;
+}
+
+.page {
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.button {
+    width: 20px;
+    height: 30px;
+}
+
+/* Mobile styling */
+@media(max-height: 620px) {
+    .page {
+        height: 620px;
+    }
+
+    .page4 {
+        height: 700px;
+    }
+
+    .page10 {
+        height: 900px !important;
+    }
+
+    .page12 {
+        height: 1200px !important;
+    }
+}
+
+@media(max-width: 850px) {
+    .page {
+        height: auto;
+        padding: 10vh 5px;
+    }
+    .page4 img {
+        position: relative !important;
+        width: 70%;
+        height: auto;
+    }
+    .page4 {
+        height: auto;
+    }
+
+    .page5 {
+        height: 1550px;
+    }
+    
+    .page5 img {
+        padding: 10px;
+    }
+    
+    .page5 h1 {
+        top: 1000px;
+    }
+
+    .page6 video {
+        width: 90% !important;
+        height: auto !important;
+    }
+
+    img#siriob2 {
+        padding-top: 0 !important;
+    }
+
+    .vertical {
+        transform: rotate(90deg);
+    }
+    
+    .page9 img {
+        width: 90% !important;
+        height: auto !important;
+    }
+
+    .vertical {
+        transform: none !important;
+    }
+
+    .page10 {
+        height: 1500px !important;
+    }
+
+    #taja {
+        display: block;
+        float: right;
+    }
+
+    .page11 img {
+        width: 90% !important;
+        height: auto !important;
+    }
+
+    .page12 {
+        height: 2200px !important;
+    }
+
+    .page12 img {
+        width: 100% !important;
+        height: auto !important;   
+    }
+
+    .navbutton {
+        visibility: hidden;
+    }
+
+    .slide img {
+        width: 90% !important;
+        height: auto !important;
+        display: block !important;
+        margin: 0 auto !important;
+    }
+}
+/* Page specific CSS */
+
+/* PAGE 1 - TITLE*/
+.page1 {
+    background-image: url('media/noise-tile-5.gif');
+    overflow: hidden;
+}
+
+.page1 video {
+    z-index: 0;
+    width: 150vw;
+    display: block;
+    margin: 0 auto;
+    margin-left: -25%;
+}
+
+.header {
+    z-index: 100;
+    position: absolute;
+    top: 8%;
+    right: 3%;
+}
+
+.page1 h1 {
+    color: black;
+    font-family: 'Playfair Display', serif;
+    font-size: 55pt;
+    text-shadow: 2px 2px white;
+}
+
+/* PAGE 2 - TITLE 2 */
+.page2 {
+    background-image: url('media/noise-tile-2.gif');
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: relative;
+}
+
+.page2 video {
+    z-index: 0;
+    width: 150%;
+    height: 200%;
+    margin-top: -10px;
+    margin-left: -25%;
+    display: block;
+}
+
+.page2 img {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    display: block;
+    top: -10%;
+}
+
+/* PAGE 3 - TABLE OF CONTENTS */
+.page3 {
+    background-image: url('media/noise-tile-5.gif');
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+#table-contents {
+    color: white;
+    padding: 2% 10%;
+}
+
+.page3 h1 {
+    font-family: 'Michroma', sans-serif;
+    font-size: 30pt;
+}
+
+.page3 a {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 11pt;
+    color: #fffbad;
+}
+
+.page3 a:hover {
+    color: white;
+}
+
+.page3 img {
+    width: 200%;
+    height: auto;
+    top: 50%;
+}
+/* PAGE 4 - Krystin Krulic */
+.page4 {
+    background-image: url('media/noise-tile-1.gif');
+    background-repeat: no-repeat;
+    padding: 0 5%;
+}
+
+.page4 h1 {
+    color: white;
+    font-family: 'Michroma', sans-serif;
+    font-size: 30pt;
+}
+
+.page4 h2 {
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14pt !important;
+
+}
+
+.page4 p {
+    color: white;
+    font-family: 'Noticia Text', serif;
+    font-size: 11pt;
+    line-height: 2;
+}
+
+.page4 img {
+    position: absolute;
+    width: 55%;
+    height: auto;
+}
+
+/* PAGE 5 - Julia Spicer */
+.page5 {
+    background-image: url('media/noise-tile-2.gif');
+    background-repeat: no-repeat;
+    padding: 0 0;
+}
+
+.page5 img {
+    display: block;
+    margin: 0 auto;
+    height: 80vh;
+    width: auto;
+}
+
+.page5 h1 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14pt;
+    color: white;
+    padding: 2%;
+    position: relative;
+    display: block;
+    float: right;
+}
+
+/* PAGE 6 - Matt Mccarthy */
+
+.page6 {
+    background-image: url('media/noise-tile-5.gif');
+    background-repeat: no-repeat;
+}
+
+.page6 video {
+    height: 80%;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.page6 h1 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14pt;
+    color: white;
+    padding: 2%;
+    position: relative;
+    float: right;
+}
+
+/* PAGE 7 - Sirob Berati */
+.page7 {
+    background-image: url('media/noise-tile-4.gif');
+    background-repeat: no-repeat;
+}
+
+.page7 img {
+    width: 100%;
+    height: auto;
+}
+
+img#siriob2 {
+    padding-top: 35%;
+}
+
+.page7 h1 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14pt;
+    color: white;
+    padding: 2%;
+    position: relative;
+    float: right;
+}
+/*PAGE 8 - Mazza Angelina*/
+.page8 {
+    background-image: url('media/noise-tile-4.gif');
+    background-repeat: no-repeat;
+}
+
+.page8 h1 {
+    font-family: 'Michroma', sans-serif;
+    font-size: 14pt;
+    color: white;
+    padding: 0 2%;
+}
+
+.page8 h2 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14pt;
+    color: white;
+    padding: 0 2%;
+}
+.page8 p {
+    font-family: 'Noticia Text', serif;
+    color: white;
+    font-size: 11pt;
+    padding: 4%;
+    line-height: 1.8;
+}
+
+.page8 img {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
+
+/* PAGE 9 - Aliah Nazamusa */
+
+.vertical {
+    transform: rotate(90deg);
+}
+
+.page9 {
+    background-image: url('media/noise-tile-4.gif');
+    background-repeat: no-repeat;
+}
+
+.page9 img {
+    display: block;
+    margin: 0 auto;
+    height: 85%;
+}
+
+.page9 h1 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14pt;
+    color: white;
+    padding: 2%;
+    position: relative;
+    float: right;
+    padding-right: 5%;
+    top: -30%;
+}
+
+/* PAGE 10 - De Silva */
+.page10 {
+    background-image: url('media/noise-tile-5.gif');
+    background-repeat: repeat-y;
+    height: 150vh;
+}
+
+.page10 h1 {
+    font-family: 'Michroma', sans-serif;
+    font-size: 18pt;
+    color: white;
+    padding: 0 4%;
+}
+
+.page10 h2 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14pt;
+    color: white;
+    padding: 0 4%;
+}
+.page10 p {
+    font-family: 'Noticia Text', serif;
+    color: white;
+    font-size: 11pt;
+    padding: 4%;
+    line-height: 2;
+}
+
+.page10 img {
+    width: 100%;
+}
+
+/*Page 11*/
+
+.page11 {
+    background-image: url('media/noise-tile-4.gif');
+    background-repeat: no-repeat;
+}
+
+.page11 img {
+    height: 90%;
+    display: block;
+    margin: 0 auto;
+}
+
+.page11 h1 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14pt;
+    color: white;
+    position: relative;
+    float: right;
+    padding-right: 20%;
+    padding-top: 4px;
+}
+
+/* PAGE 12 - abeer + melissaaaaa */
+
+.page12 {
+    height: 200vh;
+    background-image: url('media/noise-tile-4.gif');
+    background-repeat: repeat-y;
+}
+
+.page12 img {
+    width: 100%;
+}
+
+.page12 p {
+    font-family: 'Noticia Text', serif;
+    font-size: 11pt;
+    color: white;
+    position: relative;
+}
+
+.page12 h1 {
+    font-family: 'Michroma', sans-serif;
+    font-size: 18pt;
+    color: white;
+}
+
+.page12 h2 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14pt;
+    color: white;
+}
+
+/* PAGE 13 - Jothiraj Walter */
+.page13 {
+    background-image: url('media/noise-tile-4.gif');
+    background-repeat: no-repeat;
+}
+
+.page13 h1 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14pt;
+    color: white;
+    display: block;
+    float: right;
+    padding-right: 15%;
+    padding-top: 4px;
+}
+
+#slideshow, #slideshow18 {
+    margin: 0 auto; 
+    position: relative; 
+    width: 100%; 
+    height: 75%; 
+}
+
+.slide img {
+    height: 100%;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.slide18 img {
+    display: block;
+    margin: 5% auto;
+    width: 55%;
+}
+
+.navbutton {
+    cursor: pointer;
+    float: left;
+}
+
+#fwd, #fwd18 {
+    position: absolute;
+    z-index: 100;
+    margin-top: 20%;
+    left: 95%;
+    background: black;
+}
+
+#bwd, #bwd18 {
+    position: absolute;
+    z-index: 100;
+    background: black;
+    margin-top: 20%;
+    left: 5%;
+}
+
+.page14, .page14b {
+    background-image: url('media/noise-tile-5.gif');
+    background-repeat: no-repeat;
+}
+
+.page14 .p2 {
+    font-size: 14pt;
+}
+
+.page14 img {
+    left: 57%; position: absolute; width: 28%; padding-top: 6%
+}
+
+.page14 h1 {
+    color: white;
+    font-family: 'Michroma', sans-serif;
+}
+
+.page14 .p1 {
+    left: 86%; position: absolute; padding-top: 42%; font-size: 14pt
+}
+
+.page14b .p2 {
+    font-size: 14pt;
+}
+
+.page14b img {
+    position: absolute; width: 58%; padding-top: 6%; left: 20%
+}
+
+.page14b h1 {
+    color: white;
+    font-family: 'Michroma', sans-serif;
+}
+
+.page14b .p1 {
+    left: 34%; position: absolute; padding-top: 85%; font-size: 14pt
+}
+
+.page14b .p3 {
+    font-size: 10pt
+}
+
+.page15, .page15b {
+    background-image: url('media/noise-tile-2.gif');
+    background-repeat: no-repeat;
+}
+
+.page15 .pimg1 {
+    left: 48%; position: absolute; width: 32%; z-index: 10; padding-top: 18%;
+}
+
+.page15 .pimg2 {
+    left: 24%; padding-top: 6%; position: absolute; width: 30%;
+}
+
+.page15 p {
+    position: absolute;
+    color: white;
+    padding-top: 12%;
+    left: 65%;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14pt;
+}
+
+.page15b .pimg1 {
+    width: 70%;
+    padding-bottom: 25px;
+}
+
+.page15b .pimg2 {
+    width: 70%;
+}
+
+.page15b p {
+    font-size: 14pt;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14pt;
+    color: white;
+}
+
+.page16, .page16b {
+    background-image: url('media/noise-tile-1.gif');
+    background-repeat: no-repeat;
+}
+
+.page16 img {
+    left: 8%; padding-top:16%; position: absolute; width: 30%;
+}
+
+.page16 p, .page14 p{
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14px;
+}
+
+.page19b p {
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14pt;
+}
+
+.page14b p {
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+}
+.page16 .p1 {
+    padding-left: 40%;
+    padding-top: 34%;
+    font-size: 14pt;
+}
+
+.page16 h1 {
+    color: white;
+    font-family: 'Michroma', sans-serif;
+    padding-left: 63%;
+    margin-top: -35%;
+}
+
+.page16 .p2 {
+    padding-left: 82%;
+    padding-top: 1%;
+    font-size: 14pt;
+}
+
+.page16 .p3 {
+    padding-right: 10%;
+    text-align: right;
+}
+.page16b h1 {
+    color: white;
+    font-family: 'Michroma', sans-serif;
+}
+
+.page16b .p2 {
+    font-size: 14pt;
+}
+
+.page16b .p1 {
+    font-size: 14pt;
+    padding-bottom: 10%;
+}
+
+.page16b img {
+    width: 80%;
+}
+
+.page16b p{
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14px;
+}
+
+.page17 {
+    background-image: url('media/noise-tile-4.gif');
+    background-repeat: no-repeat;
+}
+
+.page17 .pimg1 {
+    width: 65%;
+}
+
+.page17 p {
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14pt;
+}
+
+.page18, .page18b {
+    background-image: url('media/noise-tile-5.gif');
+    background-repeat: no-repeat;
+}
+
+.page18 p {
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    display: block;
+    float: right;
+    margin-top: -6%;
+    padding-right: 23%;
+    font-size: 14pt;
+}
+
+.page18b img{
+    padding-bottom: 20px;
+}
+
+.page18b p {
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14pt;
+}
+
+.page19, .page19b {
+    background-image: url('media/noise-tile-4.gif');
+    background-repeat: no-repeat;
+}
+
+.page19 .pimg1 {
+    left: 18%; padding-top:15%; position: absolute; width: 15%;
+}
+
+.page19 .pimg2 {
+    left: 60%; padding-top:10%; position: relative; width: 15%;
+}
+
+.page19b .pimg1 {
+    width: 75%; padding-bottom: 25px;
+}
+
+.page19b .pimg2 {
+    width: 75%;
+}
+
+.page19 .p1 {
+    margin-top: 12%;
+    padding-left: 35%;
+    font-size: 14pt;
+}
+
+.page19 .p2 {
+    margin-top: -42%;
+    padding-left: 70%;
+    font-size: 14pt;
+}
+
+.page19 .line1 {
+    position: relative;
+    left: 25%;
+    z-index: -1;
+    height: 80%;
+    border-left: 2px solid white;
+
+}
+
+.page19 .line2 {
+    margin-top: -45%;
+    position: relative;
+    z-index: -1;
+    height: 90%;
+    border-left: 2px solid white;
+    left: 68%;
+}
+
+.page20, .page20b {
+    background-image: url('media/noise-tile-3.gif');
+    background-repeat: no-repeat;
+}
+
+.page20 {
+    height: 120vh;
+}
+
+.page20 .pimg1 {
+    left: 15%; padding-top: 3%; position: absolute; width: 30%;
+}
+
+.page20 .pimg2 {
+    left: 30%; padding-top: 28%; position: relative; width: 12%;
+}
+
+.page20b img {
+    width: 80%;
+}
+
+.page20 p, .page19 p, .page20b p {
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.page20 .p1 {
+    margin-top: -13%;
+    padding-left: 35%;
+    font-size: 14pt;
+}
+
+.page20 .p2 {
+    margin-top: 15%;
+    padding-left: 35%;
+    font-size: 14pt;
+}
+
+.page20 .p3 {
+    margin-top: 1%;
+    padding-left: 59%;
+    font-size: 14pt;
+}
+
+.page20 .p4 {
+    padding-right: 20%;
+    text-align: right;
+}
+
+.page20 h1 {
+    color: white;
+    font-family: 'Michroma', sans-serif;
+    margin-top: -40%;
+    padding-left: 58%;
+}
+
+.page20b h1 {
+    padding-top: 20%;
+    color: white;
+    font-family: 'Michroma', sans-serif;
+}
+
+.page21, .page21b {
+    background-image: url('media/noise-tile-4.gif');
+    background-repeat: no-repeat;
+}
+
+.page21 .pimg1 {
+    left: 15%; padding-top: 5%; position: absolute; width: 55%;
+}
+
+.page21 .pimg2 {
+    left: 54%; padding-top: 10%; position: relative; width: 25%;
+}
+
+.page21b img {
+    width: 80%;
+}
+
+.page21b p {
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14pt;
+}
+
+.page21 p {
+    color: white;
+    margin-top: -3%;
+    padding-left: 40%;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14pt;
+}
+
+.page22 {
+    padding: 5% 0;
+    height: 110vh;
+    background-image: url('media/noise-tile-4.gif');
+    background-repeat: no-repeat;
+}
+
+.page22 p{
+    color: white;
+    font-size: 14pt;
+}
+
+.page22 video {
+    z-index: 0;
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+.page22 p {
+    margin-left: 45%;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.page23, .page23b {
+    background-image: url('media/noise-tile-1.gif');
+    background-repeat: no-repeat;
+}
+
+.page23 p, .page23b p{
+    font-family: 'Noticia Text', serif;
+    color: white;
+}
+
+.page23b h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Michroma', sans-serif;
+}
+
+.page24 h1, .page23 h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Michroma', sans-serif;
+    font-size: 60pt;
+}
+
+.triangle {
+    border-right: 10px solid;
+    border-bottom: 10px solid;
+    height: 30px;
+    width: 30px;
+    transform: rotate(-45deg);
+    color: white;
+}
+
+.arrow {
+    margin-left: 45%;
+    box-sizing: border-box;
+    height: 5vw;
+    width: 5vw;
+    border-style: solid;
+    border-color: white;
+    border-width: 0px 2px 2px 0px;
+    transform: rotate(45deg);
+    transition: border-width 150ms ease-in-out;
+}
+
+.arrow:hover {
+    border-bottom-width: 4px;
+    border-right-width: 4px;
+}
+
+.page23, .page24, .page15{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.page1b{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page1b img {
+    width: 100%;
+}
+
+.page24 {
+    background-image: url('media/noise-tile-2.gif');
+    background-repeat: no-repeat;
+}
+
+.page24 div {
+    text-align: center;
+}
+
+#page14div{
+    left: 9%; padding-top: 6%; position: absolute;
+}
+
+#im18_1, #im18_2 {
+    height: 60vh !important;
+}
+
+
+@media (max-width: 850px) {
+    .page20 p {
+        font-size: 9.5px;
+    }
+
+    .page20 h1 {
+        font-size: 25px;
+        padding-left: 0%;
+        margin-left: 50%;
+        margin-top: -50%;
+    }
+
+    .page20 .p3{
+        padding-left: 80%;
+        margin-top: 0;
+    }
+
+    .page20 .p2{
+        padding-left: 20%;
+        margin-top: 5%;
+    }
+
+    .page20 .p1 {
+        margin-top: 42%;
+        padding-left: 15%;
+        position: absolute;
+    }
+
+    .page20 .p4{
+        padding-right: 1%;
+    }
+
+    .page20 .pimg1{
+        left: 3%; padding-top: 72%; position: absolute; width: 30%;
+    }
+
+    .page20 .pimg2 {
+        left: 3%; padding-top: 38%; position: relative; width: 30%;
+    }
+
+    .page24 h1{
+        font-size: 30pt;
+    }
+
+    .page23 h1 {
+        padding-top: 50%;
+        font-size: 20pt;
+    }
+
+    .page21 .pimg1, .page21 .pimg2 {
+        margin-top: 50%;
+    }
+
+    .page21 p {
+        padding-top: 10%;
+    }
+
+    .page22 video {
+        margin-top: 20%;
+    }
+
+    .page22 p {
+       margin-left: 35%;
+    }
+
+
+    #page1, #page2, #page14, #page15, #page16, #page18, #page19, #page20, #page21, #page23 {
+        display: none !important;
+        visibility: hidden !important;
+    }
+}
+
+@media (max-width: 1000px) and (min-width: 850px) {
+
+    #page1b, #page14b, #page15b, #page16b, #page18b, #page19b, #page20b, #page21b, #page23b{
+        display: none !important;
+        visibility: hidden !important;
+    }
+    .page19 .line1 {
+        left: 25%;
+
+    }
+
+    .page19 .line2 {
+        margin-top: -125%;
+    }
+
+    .page19 .p2 {
+        margin-top: -10%;
+    }
+
+    .page19 .pimg1 {
+        left: 18%; padding-top:48%; position: absolute; width: 15%;
+    }
+
+    .page19 .pimg2 {
+        left: 60%; padding-top:70%; position: relative; width: 15%;
+    }
+
+}
+
+@media (min-width: 1000px) {
+    #page1b, #page14b, #page15b, #page16b, #page18b, #page19b, #page20b, #page21b, #page23b{
+        display: none !important;
+        visibility: hidden !important;
+    }
+}
