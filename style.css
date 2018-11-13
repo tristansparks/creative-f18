@@ -220,7 +220,7 @@ body {
 .page4 h2 {
     color: white;
     font-family: 'Roboto Mono', monospace;
-    font-size: 10pt;
+    font-size: 14pt !important;
 
 }
 
@@ -315,7 +315,7 @@ img#siriob2 {
 
 .page8 h1 {
     font-family: 'Michroma', sans-serif;
-    font-size: 18pt;
+    font-size: 14pt;
     color: white;
     padding: 0 2%;
 }
@@ -516,6 +516,10 @@ img#siriob2 {
     background-repeat: no-repeat;
 }
 
+.page14 .p2 {
+    font-size: 14pt;
+}
+
 .page14 img {
     left: 57%; position: absolute; width: 28%; padding-top: 6%
 }
@@ -526,7 +530,7 @@ img#siriob2 {
 }
 
 .page14 .p1 {
-    left: 86%; position: absolute; padding-top: 42%
+    left: 86%; position: absolute; padding-top: 42%; font-size: 14pt
 }
 
 .page15 {
@@ -548,6 +552,7 @@ img#siriob2 {
     padding-top: 12%;
     left: 65%;
     font-family: 'Roboto Mono', monospace;
+    font-size: 14pt;
 }
 
 .page16 {
@@ -556,18 +561,19 @@ img#siriob2 {
 }
 
 .page16 img {
-    left: 8%; padding-top:18%; position: absolute; width: 30%;
+    left: 8%; padding-top:16%; position: absolute; width: 30%;
 }
 
 .page16 p, .page14 p {
     color: white;
     font-family: 'Roboto Mono', monospace;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .page16 .p1 {
-    padding-left: 30%;
-    padding-top: 40%;
+    padding-left: 40%;
+    padding-top: 34%;
+    font-size: 14pt;
 }
 
 .page16 h1 {
@@ -580,6 +586,7 @@ img#siriob2 {
 .page16 .p2 {
     padding-left: 82%;
     padding-top: 1%;
+    font-size: 14pt;
 }
 
 .page16 .p3 {
@@ -600,7 +607,8 @@ img#siriob2 {
 .page17 p {
     color: white;
     font-family: 'Roboto Mono', monospace;
-    margin-left: 47%;
+    margin-left: 45%;
+    font-size: 14pt;
 }
 
 .page18 {
@@ -613,7 +621,9 @@ img#siriob2 {
     font-family: 'Roboto Mono', monospace;
     display: block;
     float: right;
-    padding-right: 25%;
+    margin-top: -6%;
+    padding-right: 23%;
+    font-size: 14pt;
 }
 
 .page19 {
@@ -632,11 +642,13 @@ img#siriob2 {
 .page19 .p1 {
     margin-top: 12%;
     padding-left: 35%;
+    font-size: 14pt;
 }
 
 .page19 .p2 {
     margin-top: -42%;
     padding-left: 70%;
+    font-size: 14pt;
 }
 
 .page19 .line1 {
@@ -677,21 +689,25 @@ img#siriob2 {
 .page20 p, .page19 p {
     color: white;
     font-family: 'Roboto Mono', monospace;
+
 }
 
 .page20 .p1 {
     margin-top: -13%;
     padding-left: 35%;
+    font-size: 14pt;
 }
 
 .page20 .p2 {
     margin-top: 15%;
     padding-left: 35%;
+    font-size: 14pt;
 }
 
 .page20 .p3 {
     margin-top: 1%;
-    padding-left: 70%;
+    padding-left: 59%;
+    font-size: 14pt;
 }
 
 .page20 .p4 {
@@ -724,6 +740,7 @@ img#siriob2 {
     margin-top: -3%;
     padding-left: 40%;
     font-family: 'Roboto Mono', monospace;
+    font-size: 14pt;
 }
 
 .page22 {
@@ -735,6 +752,7 @@ img#siriob2 {
 
 .page22 p{
     color: white;
+    font-size: 14pt;
 }
 
 .page22 video {
@@ -827,7 +845,7 @@ img#siriob2 {
 }
 
 
-@media (max-width: 720px) {
+@media only screen and (max-width: 920px) {
     .page20 p {
         font-size: 9.5px;
     }
@@ -910,7 +928,7 @@ img#siriob2 {
     }
 
     .page14 .p2 {
-        font-size: 13px;
+        font-size: 14px;
     }
 
     .page14 .p3 {
@@ -976,6 +994,7 @@ img#siriob2 {
 
     #page1, #page2 {
         display: none !important;
+        visibility: hidden !important;
     }
 }
 
@@ -983,6 +1002,7 @@ img#siriob2 {
 
     #page1b{
         display: none !important;
+        visibility: hidden !important;
     }
     .page19 .line1 {
         left: 25%;
@@ -1010,5 +1030,6 @@ img#siriob2 {
 @media (min-width: 1000px) {
     #page1b{
         display: none !important;
+        visibility: hidden !important;
     }
 }
