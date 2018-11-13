@@ -127,9 +127,10 @@ body {
 
 .page1 video {
     z-index: 0;
-    width: 100%;
+    width: 150vw;
     display: block;
     margin: 0 auto;
+    margin-left: -25%;
 }
 
 .header {
@@ -156,9 +157,11 @@ body {
 
 .page2 video {
     z-index: 0;
-    width: 100%;
+    width: 150%;
+    height: 200%;
+    margin-top: -10px;
+    margin-left: -25%;
     display: block;
-    margin: 0 auto;
 }
 
 .page2 img {

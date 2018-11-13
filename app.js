@@ -64,4 +64,8 @@ $(document).ready(function () {
         vid.autoplay = false;
         vid.controls = true;
     }
+
+    // document.getElementById("front-page-vid").addEventListener('loadedmetadata', function () {
+    //     this.
+    // })
 });
