@@ -845,7 +845,7 @@ img#siriob2 {
 }
 
 
-@media only screen and (max-width: 920px) {
+@media (max-width: 920px) {
     .page20 p {
         font-size: 9.5px;
     }
