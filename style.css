@@ -27,6 +27,11 @@ body {
     overflow-x: hidden;
 }
 
+.button {
+    width: 20px;
+    height: 30px;
+}
+
 /* Mobile styling */
 @media(max-height: 620px) {
     .page {
@@ -109,12 +114,23 @@ body {
     }
 
     .page12 {
-        height: 1800px !important;
+        height: 2200px !important;
     }
 
     .page12 img {
         width: 100% !important;
         height: auto !important;   
+    }
+
+    .navbutton {
+        visibility: hidden;
+    }
+
+    .slide img {
+        width: 90% !important;
+        height: auto !important;
+        display: block !important;
+        margin: 0 auto !important;
     }
 }
 /* Page specific CSS */
@@ -498,7 +514,7 @@ img#siriob2 {
 #fwd, #fwd18 {
     position: absolute;
     z-index: 100;
-    margin-top: 25%;
+    margin-top: 20%;
     left: 95%;
     background: black;
 }
@@ -507,7 +523,7 @@ img#siriob2 {
     position: absolute;
     z-index: 100;
     background: black;
-    margin-top: 25%;
+    margin-top: 20%;
     left: 5%;
 }
 
