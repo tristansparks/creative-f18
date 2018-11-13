@@ -972,7 +972,7 @@ img#siriob2 {
 }
 
 
-@media (max-width: 920px) {
+@media (max-width: 850px) {
     .page20 p {
         font-size: 9.5px;
     }
@@ -1044,9 +1044,9 @@ img#siriob2 {
     }
 }
 
-@media (max-width: 1000px) and (min-width: 720px) {
+@media (max-width: 1000px) and (min-width: 850px) {
 
-    #page1b, #page14b, #page15b, #page16, #page18, #page19, #page20, #page21, #page23{
+    #page1b, #page14b, #page15b, #page16b, #page18b, #page19b, #page20b, #page21b, #page23b{
         display: none !important;
         visibility: hidden !important;
     }
